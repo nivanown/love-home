@@ -40,6 +40,7 @@ var menu = ['Гостинная', 'Спальня', 'Детская', 'Кухн�
 var mySwiper = new Swiper ('.interior-slider', {
 	slidesPerView: 1,
 	loop: false,
+	autoHeight: true,
     pagination: {
       el: '.interior-slider .swiper-pagination',
 			clickable: true,
